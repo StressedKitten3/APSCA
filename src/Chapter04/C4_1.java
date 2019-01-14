@@ -1,17 +1,19 @@
 package Chapter04;
 
 import java.util.Scanner;
+
 /**
  * Program to find high school year and part of Francis Tuttle
  *
  * @author KoltonKeylon
  */
 public class C4_1 {
-/**
-* Main method
-*
-* @param args command line arguments
-*/
+
+    /**
+     * Main method
+     *
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter two characters: ");
