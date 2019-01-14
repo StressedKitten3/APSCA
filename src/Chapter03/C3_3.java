@@ -1,19 +1,17 @@
 package Chapter03;
 
 import java.util.Scanner;
-
 /**
  * Program for rock, paper, scissors.
  *
  * @author KoltonKeylon
  */
 public class C3_3 {
-
-    /**
-     * Main method
-     *
-     * @param args command line arguments
-     */
+/**
+* Main method
+*
+* @param args command line arguments
+*/
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("scissor (0), rock (1), paper (2): ");

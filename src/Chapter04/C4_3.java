@@ -1,20 +1,18 @@
 package Chapter04;
 
 import java.util.Scanner;
-
 /**
- * Program for employees work hours, pay rate, gross pay, deductions federal and
- * state withholdings, as well as net pay.
+ * Program for employees work hours, pay rate, gross pay, deductions federal
+ * and state withholdings, as well as net pay.
  *
  * @author KoltonKeylon
  */
 public class C4_3 {
-
-    /**
-     * Main method
-     *
-     * @param args command line arguments
-     */
+/**
+* Main method
+*
+* @param args command line arguments
+*/
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter employee's name: ");

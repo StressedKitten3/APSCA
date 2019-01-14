@@ -1,7 +1,6 @@
 package Chapter02;
 
 import java.util.Scanner;
-
 /**
  * Program to find acceleration
  *
@@ -14,6 +13,7 @@ public class C2_1 {
      *
      * @param args command line arguments
      */
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter v0, v1, and t:");

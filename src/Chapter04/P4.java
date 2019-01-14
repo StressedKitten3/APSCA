@@ -1,20 +1,18 @@
 package Chapter04;
 
 import java.util.Scanner;
-
 /**
- * Program for bids and bidding winners as well as total cost percentage and
+ * Program for bids and bidding winners as well as total cost percentage and 
  * hours with rate per hour.
  *
  * @author KoltonKeylon
  */
 public class P4 {
-
-    /**
-     * Main method
-     *
-     * @param args command line arguments
-     */
+/**
+* Main method
+*
+* @param args command line arguments
+*/
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("The details asked for below concern the first bidder");
