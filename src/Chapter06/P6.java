@@ -56,7 +56,7 @@ public class P6 {
      * 
      * @param dollars
      * @param exchangeRate
-     * @return the exchange rate between dollars and other currency
+     * @return the exchange rate between dollars and other currency.
      */
     public static double convert(double dollars, double exchangeRate) {
         if (dollars > 100) {
