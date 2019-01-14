@@ -53,9 +53,9 @@ public class P6 {
 
     /**
      * convert method
-     * 
-     * @param dollars
-     * @param exchangeRate
+     *
+     * @param dollars the currency
+     * @param exchangeRate exchanging from one currency to another
      * @return the exchange rate between dollars and other currency.
      */
     public static double convert(double dollars, double exchangeRate) {

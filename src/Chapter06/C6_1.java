@@ -24,8 +24,8 @@ public class C6_1 {
 
     /**
      * isValid method
-     * 
-     * @param password
+     *
+     * @param password a valid password
      * @return creating a valid password
      */
     public static boolean isValid(String password) {
