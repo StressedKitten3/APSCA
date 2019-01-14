@@ -1,6 +1,7 @@
 package Chapter03;
 
 import java.util.Scanner;
+
 /**
  * Program to tell if one number is greater than, less than, equal to, or not
  * equal to, as well as finding proper and improper fractions, and finding
@@ -9,11 +10,12 @@ import java.util.Scanner;
  * @author KoltonKeylon
  */
 public class P3 {
-/**
-* Main method
-*
-* @param args command line arguments
-*/
+
+    /**
+     * Main method
+     *
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the first number: ");

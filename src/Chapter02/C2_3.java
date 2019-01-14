@@ -1,18 +1,19 @@
 package Chapter02;
 
 import java.util.Scanner;
+
 /**
- * Program to distance, miles per gallon, price per gallon, and costs of driving 
+ * Program to distance, miles per gallon, price per gallon, and costs of driving
  *
  * @author KoltonKeylon
  */
 public class C2_3 {
-/**
-* Main method
-*
-* @param args command line arguments
-*/
 
+    /**
+     * Main method
+     *
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the driving distance: ");

@@ -1,19 +1,20 @@
 package Chapter02;
 
 import java.util.Scanner;
+
 /**
- * Program to get the price of a meal, drink and dessert then find the food 
+ * Program to get the price of a meal, drink and dessert then find the food
  * price, sales tax, tip, and total cost.
  *
  * @author KoltonKeylon
  */
 public class P2 {
-/**
-* Main method
-*
-* @param args command line arguments
-*/
 
+    /**
+     * Main method
+     *
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the price of the meal: $");

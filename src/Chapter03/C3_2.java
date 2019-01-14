@@ -1,18 +1,19 @@
 package Chapter03;
 
 import java.util.Scanner;
+
 /**
  * Program to find palindrome
  *
  * @author KoltonKeylon
  */
 public class C3_2 {
-/**
-* Main method
-*
-* @param args command line arguments
-*/
 
+    /**
+     * Main method
+     *
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a three-digit integer: ");

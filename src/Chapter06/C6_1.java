@@ -1,17 +1,19 @@
 package Chapter06;
 
 import java.util.Scanner;
+
 /**
  * Program to create a valid password.
  *
  * @author KoltonKeylon
  */
 public class C6_1 {
-/**
-* Main method
-*
-* @param args command line arguments
-*/
+
+    /**
+     * Main method
+     *
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your password: ");
@@ -20,6 +22,12 @@ public class C6_1 {
         System.out.println(isValid(password) ? "Valid Password" : "Invalid Password");
     }
 
+    /**
+     * isValid method
+     * 
+     * @param password
+     * @return creating a valid password
+     */
     public static boolean isValid(String password) {
         // Atleast 8 characters
         if (password.length() < 8) {

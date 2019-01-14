@@ -1,6 +1,7 @@
 package Chapter05;
 
 import java.util.Scanner;
+
 /**
  * Program to count the number of positive, negative, average, and the total of
  * integers.
@@ -8,11 +9,12 @@ import java.util.Scanner;
  * @author KoltonKeylon
  */
 public class C5_1 {
-/**
-* Main method
-*
-* @param args command line arguments
-*/
+
+    /**
+     * Main method
+     *
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter an integer, the input ends if is is 0: ");

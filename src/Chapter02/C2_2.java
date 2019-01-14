@@ -1,18 +1,19 @@
 package Chapter02;
 
 import java.util.Scanner;
+
 /**
  * Program to find balance and interest rate
  *
  * @author KoltonKeylon
  */
 public class C2_2 {
-/**
-* Main method
-*
-* @param args command line arguments
-*/
 
+    /**
+     * Main method
+     *
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter balance and interest rate (e.g., 3 for 3%): ");

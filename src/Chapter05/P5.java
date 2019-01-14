@@ -1,17 +1,19 @@
 package Chapter05;
 
 import java.util.Scanner;
+
 /**
  * Program to count the number of yes and no votes.
  *
  * @author KoltonKeylon
  */
 public class P5 {
-/**
-* Main method
-*
-* @param args command line arguments
-*/
+
+    /**
+     * Main method
+     *
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String vote = "";

@@ -1,17 +1,19 @@
 package Chapter06;
 
 import java.util.Scanner;
+
 /**
  * Program to convert from dollars to pound to euros and to yen.
  *
  * @author KoltonKeylon
  */
 public class P6 {
-/**
-* Main method
-*
-* @param args command line arguments
-*/
+
+    /**
+     * Main method
+     *
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Euro Rate: ");
@@ -49,6 +51,13 @@ public class P6 {
 
     }
 
+    /**
+     * convert method
+     * 
+     * @param dollars
+     * @param exchangeRate
+     * @return the exchange rate between dollars and other currency
+     */
     public static double convert(double dollars, double exchangeRate) {
         if (dollars > 100) {
             return 0.95 * dollars * exchangeRate;
